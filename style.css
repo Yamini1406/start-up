@@ -1,0 +1,61 @@
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Shadows Into Light', cursive; */
+
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Patrick Hand', cursive;
+    background: url(header.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* img{
+    background-size: cover;
+} -> should give this at body*/
+
+h1 {
+    font-size: 3rem;
+    color:white;
+}
+
+/*overwriting bootstrap classes*/
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: orangered;
+    /* by default bootstarp classes have a border-color, so woverwrite it */
+    border-color: orangered;
+}
+
+.btn-primary:hover {
+    background-color: red;
+    border-color: red;
+    /*border-width: 4px;  /*gives a zoom-in effect becoz it gives extra space on all 4 sides within the btn*/
+    letter-spacing: 3px;
+}
+
+
+.btn-xl {
+    padding: 1rem 2rem; /*height| , width->*/
+}
+
+hr {
+    border-color: orangered;
+    /* You can set the margin property to auto to horizontally center the element within its container. */
+    margin: 20px auto;
+    /* to make it bold */
+    border-width: 4px;
+    border-radius: 4px;
+    max-width: 70px;
+}
+
+.buffer{
+    height: 10rem;
+}
+
